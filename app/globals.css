@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme{
+    --color-immo-primary: #B20D30;
+    --color-immo-secondary: #F8F3E8;
+    --color-immo-grey: #6B7D94;
+    --color-immo-blue-light : #E5EDF9;
+    --color-immo-blue-lighter: #F2F7FD;
+    --color-immo-advantages-border : #D0DCED;
+    --color-immo-footer: #111827;
+    --color-immo-footer-writing: #D1D5DB;
+    --color-energy-A: #078748;
+    --color-energy-B: #60AD2E;
+    --color-energy-C: #CBDA0F;
+    --color-energy-D: #F6ED02;
+    --color-energy-E: #EBA902;
+    --color-energy-F: #E38102;
+    --color-energy-G: #D74202;
+    --color-GES-A: #91D9F9;
+    --color-GES-B: #80BCDD;
+    --color-GES-C: #70A0C2;
+    --color-GES-D: #587598;
+    --color-GES-E: #47587C;
+    --color-GES-F: #363B60;
+    --color-GES-G: #1F1238;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #111827;
+  }
+}
+@media (max-width: 790px) {
+        .stack-mobile { flex-direction: column !important; }
+        .stack-mobile > * { width: 100% !important; }
+        .tri-row { display: flex; flex-direction: column; gap: 0.5rem; }
+        .results-count { margin-top: 0.5rem; text-align: left; }
+      }
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1400px; 
+
+}
+hr {
+  color: #4B5563;
+}
+
+.infopratique {
+  color : #16A34A
+}
