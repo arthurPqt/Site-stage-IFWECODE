@@ -1,12 +1,56 @@
-# Site immobilier - Stage IFWECODE
+Site Immobilier — Stage IFWECODE
+Site web immobilier réalisé dans le cadre d'un stage professionnel chez IFWECODE.
+Le projet permet de consulter et filtrer des biens immobiliers affichés dynamiquement depuis une base de données.
 
-Site immobilier réalisé en stage chez IFWECODE.
+Stack technique
+TechnologieRôleNext.jsFramework React — rendu hybride SSR/SSGJSXTemplating des composantsTailwind CSSStyling utilitaire et design responsiveDirectusBack-end headless CMS — gestion de la BDD
 
-## Stack technique
-- Next.js, JSX, Tailwind CSS
-- Base de données Directus (back-end)
+ Fonctionnalités
 
-## Fonctionnalités
-- Affichage dynamique des biens depuis la BDD
-- Filtres de recherche
-- Design responsive
+ Affichage dynamique des biens immobiliers depuis la base de données Directus
+ Filtres de recherche pour affiner les résultats (type, localisation, prix...)
+ Design responsive — adapté mobile, tablette et desktop
+
+
+ Lancer le projet en local
+Prérequis
+
+Node.js >= 18
+npm ou yarn
+
+Installation
+bash# Cloner le repo
+git clone https://github.com/arthurPqt/Site-stage-IFWECODE.git
+
+# Accéder au dossier
+cd Site-stage-IFWECODE
+
+# Installer les dépendances
+npm install
+Configuration
+Créer un fichier .env.local à la racine et y renseigner l'URL de votre instance Directus :
+envNEXT_PUBLIC_DIRECTUS_URL=https://votre-instance-directus.com
+Démarrage
+bash# Mode développement
+npm run dev
+
+# Build de production
+npm run build
+npm start
+L'application est accessible sur http://localhost:3000
+
+ Structure du projet
+ ── app/       # Composants React réutilisables
+├── components/       # Composants React réutilisables
+├── pages/            # Pages Next.js (routing automatique)
+├── public/           # Assets statiques
+├── styles/           # Styles globaux
+└── lib/              # Appels API Directus
+
+Contexte
+Projet réalisé en conditions professionnelles lors d'un stage en entreprise chez IFWECODE.
+Développement initialement versionné sur GitLab, puis migré sur GitHub.
+
+Auteur
+Arthur Picquot
+GitHub · LinkedIn
