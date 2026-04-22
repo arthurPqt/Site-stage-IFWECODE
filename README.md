@@ -1,13 +1,13 @@
 [README-site-immobilier.md](https://github.com/user-attachments/files/26961167/README-site-immobilier.md)
 
-# 🏠 Site Immobilier — Stage IFWECODE
+#  Site Immobilier — Stage IFWECODE
 
 Site web immobilier réalisé dans le cadre d'un stage professionnel chez **IFWECODE**.  
 Le projet permet de consulter et filtrer des biens immobiliers affichés dynamiquement depuis une base de données.
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 | Technologie | Rôle |
 |---|---|
@@ -18,15 +18,15 @@ Le projet permet de consulter et filtrer des biens immobiliers affichés dynamiq
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-- 📋 **Affichage dynamique** des biens immobiliers depuis la base de données Directus
-- 🔍 **Filtres de recherche** pour affiner les résultats (type, localisation, prix...)
-- 📱 **Design responsive** — adapté mobile, tablette et desktop
+-  **Affichage dynamique** des biens immobiliers depuis la base de données Directus
+-  **Filtres de recherche** pour affiner les résultats (type, localisation, prix...)
+-  **Design responsive** — adapté mobile, tablette et desktop
 
 ---
 
-## 🚀 Lancer le projet en local
+##  Lancer le projet en local
 
 ### Prérequis
 
@@ -69,11 +69,11 @@ L'application est accessible sur [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
+├── app/            # Pages Next.js (routing automatique)
 ├── components/       # Composants React réutilisables
-├── pages/            # Pages Next.js (routing automatique)
 ├── public/           # Assets statiques
 ├── styles/           # Styles globaux
 └── lib/              # Appels API Directus
@@ -81,14 +81,14 @@ L'application est accessible sur [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🎓 Contexte
+##  Contexte
 
 Projet réalisé en conditions professionnelles lors d'un **stage en entreprise** chez [IFWECODE](https://ifwecode.fr).  
 Développement initialement versionné sur **GitLab**, puis migré sur GitHub.
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Arthur Picquot**  
 [GitHub](https://github.com/arthurPqt) · [LinkedIn](#)
