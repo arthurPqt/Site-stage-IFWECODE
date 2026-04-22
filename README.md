@@ -72,10 +72,9 @@ L'application est accessible sur [http://localhost:3000](http://localhost:3000)
 ##  Structure du projet
 
 ```
-├── app/            # Pages Next.js (routing automatique)
+├── app/              # Pages Next.js (routing automatique)
 ├── components/       # Composants React réutilisables
-├── public/           # Assets statiques
-├── styles/           # Styles globaux
+├── data/             # Request/writting database
 └── lib/              # Appels API Directus
 ```
 
@@ -91,4 +90,4 @@ Développement initialement versionné sur **GitLab**, puis migré sur GitHub.
 ##  Auteur
 
 **Arthur Picquot**  
-[GitHub](https://github.com/arthurPqt) · [LinkedIn](#)
+[GitHub](https://github.com/arthurPqt) · [LinkedIn](www.linkedin.com/in/arthur-picquot)
